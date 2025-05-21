@@ -1,11 +1,8 @@
-var LIST = [
-    "Frozen Buritos",
-    "Banana Foster",
-    "Ice Cream Sunday",
-    "Taquitos"
-]
+alert("PLEASE LET IT WORK");
 
+var BTN = document.getElementById("myButton");
 
-for (let i = 0; i++; i < 3){
-    alert("Frozen Buritos" + i)
-}
+for(var i =0; i < 3; i++){
+    var newBTN = BTN.cloneNode(true);
+    document.body.append(newBTN);
+};
